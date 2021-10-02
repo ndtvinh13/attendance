@@ -1,13 +1,25 @@
 
 <!-- Using PHP Data Object (PDO) -->
 <?php
-    $host='127.0.0.1';
-    $db='attendance_db';
-    $user='root';
-    $pass='';
+    //Development connection
+    // $host='127.0.0.1';
+    // $db='attendance_db';
+    // $user='root';
+    // $pass='';
+    // $charset='utf8mb4';
+    // // data short name
+    // $dsn="mysql:host=$host;dbname=$db;charset=$charset";
+
+
+    //Remote database connection
+    $host='remotemysql.com';
+    $db='Lspe0tns3z';
+    $user='Lspe0tns3z';
+    $pass='PiQAqnxYbw';
     $charset='utf8mb4';
     // data short name
     $dsn="mysql:host=$host;dbname=$db;charset=$charset";
+
 
 //TODO: Need to declare all of the objects above
         // 1. $host
