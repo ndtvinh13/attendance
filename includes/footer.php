@@ -2,7 +2,7 @@
       <br>
       <br>
       <br>
-      
+ 
       <div class='text-center'>
         <?php echo 'Copyright '. date('Y');?>
       </div>

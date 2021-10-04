@@ -39,6 +39,10 @@
                 <option>Software Developer</option>
                 <option>Web Administrator</option>
                 <option>Other</option> -->
+
+                <!-- TODO: Creating a while loop to get the specialties
+                           $result is this case is the result above => have to be the same
+                -->
                 <?php while($r = $results->fetch(PDO::FETCH_ASSOC)){ ?>
                     <option value="<?php echo$r['specialty_id'] ?>"><?php echo $r['name'] ?></option>
                 <?php } ?>
